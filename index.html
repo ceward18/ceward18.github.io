@@ -39,6 +39,12 @@ float:left;
 height:300px;
 width:400px;	
 } 
+.iconDetails2 {
+ margin-left:2%;
+float:left; 
+height:90px;
+width:90px;	
+} 
 
 .container2 {
 	width:270px;
@@ -46,9 +52,9 @@ width:400px;
 	padding:1%;
     float:left;
 }
-h4{margin:0}
+h4{margin:0 margin-bottom:5.5em}
 .left {float:left;width:420px;}
-.right {float:left;margin:0 0 0 5px;width:50%;}
+.right {float:left;margin:0 0 0 5px;width:30%;}
 </style>
 <script>
 function openPage(pageName, elmnt, color) {
@@ -78,10 +84,10 @@ document.getElementById("defaultOpen").click();
 </head>
 
 <body style="background-color:LightGrey;">
-
 <button class="tablink" onclick="openPage('Home', this, 'blue')" id="defaultOpen">Home</button>
 <button class="tablink" onclick="openPage('Publications', this, 'blue')">Publications</button>
 <button class="tablink" onclick="openPage('CV', this, 'blue')">CV</button>
+<button class="tablink" onclick="openPage('News', this, 'blue')">News</button>
 
 <div id="Home" class="tabcontent" style="display:block">
   <h1>Caitlin Ward</h1>
@@ -92,39 +98,66 @@ document.getElementById("defaultOpen").click();
     </div>  
     <div   class="right" >
     <h4>About Me</h4>
-    <p> Welcome! I'm a PhD candidate in the Department of Biotatistics at the University of Iowa. My research interests include:
-	<ul>
-	  <li>Bayesian Statistics</li>
-	  <li>Infectious Disease Modeling</li>
-	  <li>Statistical Computation</li>
-	  <li>Spatio-temporal Modeling</li>
-	  <li>Latent Growth Modeling</li>
-	  <li>Network Analysis</li>
-	</ul>
-
-  </p>
+    <p> Welcome! I'm a PhD candidate in the Department of Biotatistics at the University of Iowa.
+	My research focuses on creating more realistic models of infectious diseases to better estimate 
+	disease transmission and the effectiveness of interventions, which are of interest to researchers 
+	and public health organizations. My collaborative research has spanned a wide range of disciplines, 
+	with recent work using machine learning and radiomics data for tumor classification and 
+	</p>
+	<p> I hold a strong passion for teaching introductory biostatistics and utlizing effective pedagogy. This led to applying and
+	receiving funding for the creation of an Open Educational Resource (OER)to be used in an introductory biostatistics or statistics course. 
+	Although the OER is currently under construction, our goal is to create an OER to be used alongside any introductory biostatistics or statistics 
+	course which combines textual explanations and embedded simulation-based Shiny applications to provide students with an engaging and interactive learning 
+	experience and offer an intuitive illustration of the core statistical concepts.
+	</p>
     </div>
   
 </div>
 
-<div id="Publications" class="tabcontent">
+<div id="Publications" class="tabcontent" style="width:50%">
   <h1>Publications</h1>
-    <p>
-	<ul>
-	  <li>Bayesian Statistics</li>
-	  <li>Infectious Disease Modeling</li>
-	  <li>Statistical Computation</li>
-	  <li>Spatio-temporal Modeling</li>
-	  <li>Latent Growth Modeling</li>
-	  <li>Network Analysis</li>
-	</ul>
-
-  </p>
+  
+  <h3>Modeling Population and Subject-Specific Growth in a Latent Trait Measured by Multiple Instruments over Time using a Hierarchical Bayesian Framework. </h3>
+  <p> Ward, C., Oleson, J., Tomblin, B., Walker, E.  </p>
+  <p> <i>Journal of Applied Statistics</i>. 2020. <a href="https://www.tandfonline.com/eprint/SE4ZWIR2ERR89P7WA2K5/full?target=10.1080/02664763.2020.1817346" style="color:darkviolet;">Link to Journal Website</a>  </p>
+  
+  <h3>Presurgical detection of brain invasion status in meningiomas based on first-order histogram based texture analysis of contrast enhanced imaging. </h3>
+  <p> Kandemirli, S., Chopra, S.,  Priya, S., Ward, C., Locke, T., Soni, N., Srivastava, S., Jones, K., Bathla, G. </p>
+  <p> <i><i>Clinical Neurology and Neurosurgery</i>. 2020. <a href="https://www.sciencedirect.com/science/article/pii/S0303846720305485"style="color:darkviolet;">Link to Journal Website</a>  </p>
+  
+  <h3>Cerebral computed tomographic angiography using third-generation reconstruction algorithm provides improved image quality with lower contrast and radiation dose</h3>
+  <p> Bathla, G., Priya, S., Samaniego, E., Deo, S. K., Fain, N. H., Soni, N., Ward, C., Derdeyn, C. P.  </p>
+  <p> <i>Neuroradiology</i>. 2020. <a href="https://link.springer.com/article/10.1007/s00234-020-02406-y"style="color:darkviolet;">Link to Journal Website</a>  </p>
+  
+  <h3>A New Factor Solution for the  Domestic Violence–Related Financial Issues Scale (DV-FI) </h3>
+  <p> Ward, C., Oleson, J., Tomblin, B., Walker, E.  </p>
+  <p> <i>Journal of Interpersonal Violence</i>. 2019. <a href="https://journals.sagepub.com/doi/10.1177/0886260519860888"style="color:darkviolet;">Link to Journal Website</a>  </p>
+  
+  <h3>Showcasing Cancer Incidence and Mortality in Rural ZCTAs Using Risk Probabilities via Spatio-temporal Bayesian Disease Mapping </h3>
+  <p> Ward, C., Oleson, J., Tomblin, B., Walker, E.  </p>
+  <p> <i>Applied Spatial Analysis and Policy</i>. 2018. <a href="https://link.springer.com/article/10.1007%2Fs12061-018-9276-4"style="color:darkviolet;">Link to Journal Website</a>  </p>
+  
+  <h3>Influence of Language Load on Speech Motor Skill in Children With Specific Language Impairment</h3>
+  <p> Saletta, M., Goffman, L., Ward, C., Oleson, J. </p>
+  <p> <i>J Speech Lang Hear Res</i>. 2018. <a href="https://pubs.asha.org/doi/10.1044/2017_JSLHR-L-17-0066"style="color:darkviolet;">Link to Journal Website</a>  </p>
+   
 </div>
 
 <div id="CV" class="tabcontent">
   <a href="./CV_NoRef.pdf" target="blank">Download CV</a>
 </div>
+
+<div id="News" class="tabcontent" style="width:50%">
+  <h1>News</h1>
+   <div class="left" style="width:100px;">
+			<img src='/www/newsIcon.png' class='iconDetails2'>
+		</div>	
+	<div   class="right" >
+	<div style="width:400px;float:left;"><a href="https://www.public-health.uiowa.edu/news-items/qa-with-biostatistics-student-caitlin-ward/" style="color:darkviolet;">Q&A with biostatistics student Caitlin Ward</a> </div>
+	<h4>July 2020</h4>
+	</div>
+</div>
+
 
 </body>
 </html>
