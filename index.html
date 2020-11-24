@@ -47,7 +47,7 @@ width:400px;
     float:left;
 }
 h4{margin:0}
-.left {float:left;width:450px;}
+.left {float:left;width:420px;}
 .right {float:left;margin:0 0 0 5px;width:50%;}
 </style>
 <script>
@@ -81,15 +81,18 @@ document.getElementById("defaultOpen").click();
 
 <button class="tablink" onclick="openPage('Home', this, 'blue')" id="defaultOpen">Home</button>
 <button class="tablink" onclick="openPage('Publications', this, 'blue')">Publications</button>
+<button class="tablink" onclick="openPage('CV', this, 'blue')">CV</button>
 
 <div id="Home" class="tabcontent" style="display:block">
   <h1>Caitlin Ward</h1>
+  <h4>caitlin-e-ward@uiowa.edu</h4>
+  
   <div class="left">
             <img src="/www/cwPic.jpg" alt="Personal Photo" style="width:300px;height:400px;">
     </div>  
     <div   class="right" >
-    <h4>Facebook</h4>
-    <p>Welcome to my website. I'm a PhD candidate in the Department of Biotatistics at the University of Iowa. My research interests include:
+    <h4>About Me</h4>
+    <p> Welcome! I'm a PhD candidate in the Department of Biotatistics at the University of Iowa. My research interests include:
 	<ul>
 	  <li>Bayesian Statistics</li>
 	  <li>Infectious Disease Modeling</li>
@@ -106,12 +109,7 @@ document.getElementById("defaultOpen").click();
 
 <div id="Publications" class="tabcontent">
   <h1>Publications</h1>
-    <div class="left">
-            <img src='http://ecx.images-amazon.com/images/I/21-leKb-zsL._SL500_AA300_.png' class='iconDetails'>
-    </div>  
-    <div   class="right" >
-    <h4>Facebook</h4>
-    <p>Welcome to my website. I'm a PhD candidate in the Department of Biotatistics at the University of Iowa. My research interests include:
+    <p>
 	<ul>
 	  <li>Bayesian Statistics</li>
 	  <li>Infectious Disease Modeling</li>
@@ -122,10 +120,11 @@ document.getElementById("defaultOpen").click();
 	</ul>
 
   </p>
-    </div>
 </div>
 
-
+<div id="CV" class="tabcontent">
+  <a href="./CV_NoRef.pdf" target="blank">Download CV</a>
+</div>
 
 </body>
 </html>
