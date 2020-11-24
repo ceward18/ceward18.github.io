@@ -1,9 +1,83 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Caitlin Ward</h1>
-<p>Welcome to my website.</p>
-<img src="/www/cwPic.jpg" alt="Personal Photo" style="width:300px;height:400px;">
-<p>I'm hosted with GitHub Pages.</p>
+<head>
+<style>
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 10%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+</style>
+<script>
+function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</head>
+
+<body style="background-color:LightGrey;">
+
+<button class="tablink" onclick="openPage('Home', this, 'blue')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Publications', this, 'blue')">Publications</button>
+
+<div id="Home" class="tabcontent" style="display:block">
+  <h1>Caitlin Ward</h1>
+  <p>Welcome to my website. I'm a PhD candidate in the Department of Biotatistics at the University of Iowa. </p>
+  <img src="/www/cwPic.jpg" alt="Personal Photo" style="width:600px;height:800px;">
+</div>
+
+<div id="Publications" class="tabcontent">
+  <h1>Publications</h1>
+  <p>Some news this fine day!</p>
+</div>
+
+
+
 </body>
 </html>
