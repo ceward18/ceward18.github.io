@@ -1,0 +1,46 @@
+baseURL: http://example.com/
+languageCode: en-us
+title: Caitlin Ward
+theme: minimal
+disqusShortname: username
+googleAnalytics: ''
+params:
+  accent: darkblue
+  author: Caitlin Ward
+  backgroundColor: white
+  description: Personal blog theme powered by Hugo
+  font: Raleway
+  githubUsername: '#'
+  highlight: yes
+  highlightLanguages:
+    - go
+    - haskell
+    - kotlin
+    - scala
+    - swift
+  highlightStyle: default
+  showBorder: yes
+menu:
+  icon:
+    - name: fas fa-envelope
+      url: caitlin.ward@ucalgary.ca
+      weight: 1
+    - name: fab fa-github
+      url: https://github.com/ceward18/
+      weight: 2
+    - name: fab fa-twitter
+      url: https://twitter.com/caitlin_ward_
+      weight: 3
+    - name: fab fa-linkedin
+      url: https://www.linkedin.com/in/caitlin-ward-b89377a8/
+      weight: 4
+  main:
+    - name: Home
+      url: /home/
+      weight: 1
+    - name: News
+      url: /about/
+      weight: 2
+    - name: CV
+      url: /cv/
+      weight: 3
