@@ -1,6 +1,6 @@
 ---
-description: 
 title: Caitlin Ward
+author: ''
 ---
 
 <img src="/cwPic.jpg" alt="drawing" width="200"/>
