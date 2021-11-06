@@ -2,97 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.com/project/project1/</loc>
+    <loc>https://ceward18.github.io/home/project/project1/</loc>
   </url><url>
-    <loc>http://example.com/project/project2/</loc>
+    <loc>https://ceward18.github.io/home/project/project2/</loc>
   </url><url>
-    <loc>http://example.com/project/project3/</loc>
+    <loc>https://ceward18.github.io/home/project/project3/</loc>
   </url><url>
-    <loc>http://example.com/project/project4/</loc>
+    <loc>https://ceward18.github.io/home/project/project4/</loc>
   </url><url>
-    <loc>http://example.com/</loc>
+    <loc>https://ceward18.github.io/home/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/categories/</loc>
+    <loc>https://ceward18.github.io/home/categories/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/post/2020-12-01-r-rmarkdown/</loc>
+    <loc>https://ceward18.github.io/home/post/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/plot/</loc>
+    <loc>https://ceward18.github.io/home/tags/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/post/</loc>
+    <loc>https://ceward18.github.io/home/post/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/categories/r/</loc>
+    <loc>https://ceward18.github.io/home/categories/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/r-markdown/</loc>
+    <loc>https://ceward18.github.io/home/tags/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/regression/</loc>
+    <loc>https://ceward18.github.io/home/tags/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/</loc>
+    <loc>https://ceward18.github.io/home/tags/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.com/post/creating-a-new-theme/</loc>
+    <loc>https://ceward18.github.io/home/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/go/</loc>
+    <loc>https://ceward18.github.io/home/tags/go/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/golang/</loc>
+    <loc>https://ceward18.github.io/home/tags/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/hugo/</loc>
+    <loc>https://ceward18.github.io/home/tags/hugo/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/themes/</loc>
+    <loc>https://ceward18.github.io/home/tags/themes/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/post/goisforlovers/</loc>
+    <loc>https://ceward18.github.io/home/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/development/</loc>
+    <loc>https://ceward18.github.io/home/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/post/hugoisforlovers/</loc>
+    <loc>https://ceward18.github.io/home/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/template/</loc>
+    <loc>https://ceward18.github.io/home/tags/template/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/jekyll/</loc>
+    <loc>https://ceward18.github.io/home/tags/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/post/migrate-from-jekyll/</loc>
+    <loc>https://ceward18.github.io/home/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/static-site-generator/</loc>
+    <loc>https://ceward18.github.io/home/tags/static-site-generator/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/bootstrap/</loc>
+    <loc>https://ceward18.github.io/home/tags/bootstrap/</loc>
   </url><url>
-    <loc>http://example.com/home/</loc>
+    <loc>https://ceward18.github.io/home/home/</loc>
   </url><url>
-    <loc>http://example.com/tags/css/</loc>
+    <loc>https://ceward18.github.io/home/tags/css/</loc>
   </url><url>
-    <loc>http://example.com/cv/</loc>
+    <loc>https://ceward18.github.io/home/cv/</loc>
   </url><url>
-    <loc>http://example.com/tags/highlight-js/</loc>
+    <loc>https://ceward18.github.io/home/tags/highlight-js/</loc>
   </url><url>
-    <loc>http://example.com/tags/html/</loc>
+    <loc>https://ceward18.github.io/home/tags/html/</loc>
   </url><url>
-    <loc>http://example.com/tags/js/</loc>
+    <loc>https://ceward18.github.io/home/tags/js/</loc>
   </url><url>
-    <loc>http://example.com/about/</loc>
+    <loc>https://ceward18.github.io/home/about/</loc>
   </url><url>
-    <loc>http://example.com/project/</loc>
+    <loc>https://ceward18.github.io/home/project/</loc>
   </url><url>
-    <loc>http://example.com/tags/responsive/</loc>
+    <loc>https://ceward18.github.io/home/tags/responsive/</loc>
   </url><url>
-    <loc>http://example.com/tags/syntax-highlighting/</loc>
+    <loc>https://ceward18.github.io/home/tags/syntax-highlighting/</loc>
   </url>
 </urlset>
