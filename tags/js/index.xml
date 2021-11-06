@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>js on Caitlin Ward</title>
-    <link>https://ceward18.github.io/home/tags/js/</link>
+    <link>https://ceward18.github.io/tags/js/</link>
     <description>Recent content in js on Caitlin Ward</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ceward18.github.io/home/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ceward18.github.io/tags/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 2</title>
-      <link>https://ceward18.github.io/home/project/project2/</link>
+      <link>https://ceward18.github.io/project/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ceward18.github.io/home/project/project2/</guid>
+      <guid>https://ceward18.github.io/project/project2/</guid>
       <description></description>
     </item>
     
