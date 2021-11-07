@@ -101,11 +101,31 @@ Follow the following steps:
     
     <item>
       <title>Caitlin Ward</title>
+      <link>https://ceward18.github.io/home-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceward18.github.io/home-copy/</guid>
+      <description>Email: caitlin.ward@ucalgary.ca
+Welcome! I’m a postdoctoral researcher at the University of Calgary studyingbehavioral change in infectious disease systems under the supervision of Dr. RobDeardon and Dr. Alex Schmidt. I completed my PhD in Biostatisticsat the University of Iowa in 2021, where I worked with Dr. Grant Brown and Dr.Jacob Oleson to develop methodology to create more accurate models of infectiousdiseases. I am interested in Bayesian statistics and computation, and have foundapplications in epidemic spread, latent growth modeling, and disease mapping.</description>
+    </item>
+    
+    <item>
+      <title>Caitlin Ward</title>
       <link>https://ceward18.github.io/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ceward18.github.io/home/</guid>
-      <description>Welcome! I’m a postdoctoral researcher at the University of Calgary studyingbehavioral change in infectious disease systems under the supervision of Dr. RobDeardon and Dr. Alex Schmidt. I completed my PhD in Biostatisticsat the University of Iowa in 2021, where I worked with Dr. Grant Brown and Dr.Jacob Oleson to develop methodology to create more accurate models of infectiousdiseases. I am interested in Bayesian statistics and computation, and have foundapplications in epidemic spread, latent growth modeling, and disease mapping.</description>
+      <description>Email: caitlin.ward@ucalgary.ca
+Welcome! I’m a postdoctoral researcher at the University of Calgary studyingbehavioral change in infectious disease systems under the supervision of Dr. RobDeardon and Dr. Alex Schmidt. I completed my PhD in Biostatisticsat the University of Iowa in 2021, where I worked with Dr. Grant Brown and Dr.Jacob Oleson to develop methodology to create more accurate models of infectiousdiseases. I am interested in Bayesian statistics and computation, and have foundapplications in epidemic spread, latent growth modeling, and disease mapping.</description>
+    </item>
+    
+    <item>
+      <title>Caitlin Ward</title>
+      <link>https://ceward18.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceward18.github.io/publications/</guid>
+      <description>Methodological PublicationsWard, C., Brown, G., Oleson, J. (2021). An Individual Level Infectious Disease Model in the Presence of Uncertainty from Multiple, Imperfect Diagnostic Tests. Biometrics.doi: 10.1111/biom.13579Ward, C., Oleson, J., Tomblin, B., Walker, E. (2020). Modeling Population and Subject-Specific Growth in a Latent Trait Measured by Multiple Instruments over Time using a Hierarchical Bayesian Framework. Journal of Applied Statistics.doi: 10.1080/02664763.2020.1817346Ward, C.</description>
     </item>
     
     <item>
@@ -119,10 +139,10 @@ Follow the following steps:
     
     <item>
       <title>News</title>
-      <link>https://ceward18.github.io/about/</link>
+      <link>https://ceward18.github.io/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ceward18.github.io/about/</guid>
+      <guid>https://ceward18.github.io/news/</guid>
       <description>  Love of numbers fuels COVID-19 research, May 2021
   University of Iowa Dare to Discover Campaign, January 2021
   Q&amp;amp;A with biostatistics student Caitlin Ward, July 2020
