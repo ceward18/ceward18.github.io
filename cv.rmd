@@ -3,4 +3,4 @@ description:
 title: CV
 ---
 
-<object data = "/Caitlin_Ward_CV.pdf" type = "application/pdf" width = "250%" height = "300%" style="align:center;"></object>
+<object data = "/Caitlin_Ward_CV.pdf" type = "application/pdf" width = "250%" height = "300%"></object>
