@@ -23,7 +23,7 @@ author: ''
 
 <p>
 <ol>
-  <li> Lence, T., Lockwood, G. M., Storm D. W., \textbf{Ward, C.}, Cooper, C. S. (2021). The Utility of Renal Sonographic Measurements in Differentiating Children with High Grade Congenital Hydronephrosis. *Journal of Pediatric Urology*.
+  <li> Lence, T., Lockwood, G. M., Storm D. W., **Ward, C.**, Cooper, C. S. (2021). The Utility of Renal Sonographic Measurements in Differentiating Children with High Grade Congenital Hydronephrosis. *Journal of Pediatric Urology*.
   doi: <a href="https://www.sciencedirect.com/science/article/pii/S1477513121003594?via%3Dihub">10.1016/j.jpurol.2021.07.021</a>  </li>
   <li> Bathla G., Priya, S., Lui, Y., \textbf{Ward, C.}, Le, N., Neetu, S., Maheshwarappa, R., Monga, V., Zhang, H., Sonka, M. (2021). Radiomics-based Differentiation Between Glioblastoma and Primary Central Nervous System Lymphoma: A Comparison of Diagnostic Performance Across Different MRI Sequences and Machine Learning Techniques. European Radiology. 
   doi: <a href="https://link.springer.com/article/10.1007%2Fs00330-021-07845-6">10.1007/s00330-021-07845-6</a>  </li>
