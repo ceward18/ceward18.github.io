@@ -31,7 +31,7 @@ in a wide range of disciplines, including radiology, nursing, communication
 sciences, and social work. Many of my recent collaborative publications have 
 centered on using machine learning methods and radiomics data for tumor 
 classification. Other collaborative projects I've worked on have used
-longitudinal methods, network analysis, in addition to traditional regression
+longitudinal methods, survival analysis, and network analysis, in addition to traditional regression
 modeling.
 
 I hold a strong passion for teaching biostatistics curriculum using 
@@ -40,7 +40,7 @@ for the creation of an Open Educational Resource (OER) to be used in an
 introductory biostatistics or statistics course. The OER is currently under 
 construction, with development focused on the combination of textual 
 explanations, embedded Shiny applications, and corresponding exercises which 
-ephasize conceptual understanding. This will provide students with an engaging 
+emphasize conceptual understanding. This will provide students with an engaging 
 and interactive learning resource that offers an intuitive illustration of core
 statistical concepts.
 
