@@ -3,4 +3,6 @@ description:
 title: CV
 ---
 
+<a href="/Caitlin_Ward_CV.pdf" download>Download CV</a>
+
 <object data = "/Caitlin_Ward_CV.pdf" type = "application/pdf" width = "250%" height = "300%"></object>
