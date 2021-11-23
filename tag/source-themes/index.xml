@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Source Themes | Caitlin Ward</title>
+    <link>https://ceward18.github.io/tag/source-themes/</link>
+      <atom:link href="https://ceward18.github.io/tag/source-themes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Source Themes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ceward18.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Source Themes</title>
+      <link>https://ceward18.github.io/tag/source-themes/</link>
+    </image>
+    
+    <item>
+      <title>An individual level infectious disease model in the presence of uncertainty from multiple, imperfect diagnostic tests</title>
+      <link>https://ceward18.github.io/publication/diagnosticilm/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/diagnosticilm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radiomics-based Differentiation Between Glioblastoma and Primary Central Nervous System Lymphoma A Comparison of Diagnostic Performance Across Different MRI Sequences and Machine Learning Techniques</title>
+      <link>https://ceward18.github.io/publication/gliomalymph/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/gliomalymph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival prediction in glioblastoma on post-contrast magnetic resonance imaging using filtration based first-order texture analysis- Comparison of multiple machine learning models</title>
+      <link>https://ceward18.github.io/publication/survivalmachinelearning/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/survivalmachinelearning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling population and subject-specific growth in a latent trait measured by multiple instruments over time using a hierarchical Bayesian framework</title>
+      <link>https://ceward18.github.io/publication/latentgrowth/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/latentgrowth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A New Factor Solution for the Domestic Violence–Related Financial Issues Scale (DV-FI)</title>
+      <link>https://ceward18.github.io/publication/factoranalysis/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/factoranalysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Showcasing Cancer Incidence and Mortality in Rural ZCTAs Using Risk Probabilities via Spatio-Temporal Bayesian Disease Mapping</title>
+      <link>https://ceward18.github.io/publication/cancermaps/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/cancermaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influence of Language Load on Speech Motor Skill in Children With Specific Language Impairment</title>
+      <link>https://ceward18.github.io/publication/saletta/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/saletta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

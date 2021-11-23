@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Caitlin Ward</title>
+    <link>https://ceward18.github.io/project/</link>
+      <atom:link href="https://ceward18.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ceward18.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://ceward18.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>An Intuitive, Interactive, Introduction to Biostatistics</title>
+      <link>https://ceward18.github.io/project/textbook/</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/project/textbook/</guid>
+      <description>&lt;p&gt;I hold a strong passion for teaching biostatistics curriculum using personalized pedagogical methods. This led to applying and receiving funding for the creation of an Open Educational Resource (OER) to be used in an introductory biostatistics or statistics course. The OER is currently under construction, with development focused on a combination of textual explanations, embedded Shiny applications, and corresponding exercises to emphasize conceptual understanding.&lt;/p&gt;
+&lt;p&gt;The OER, entitled &amp;ldquo;An Intuitive, Interactive, Introduction to Biostatistics&amp;rdquo; aims to provide students with an engaging and interactive learning resource that offers an intuitive illustration of core statistical concepts, such as probability distributions,
+Central Limit Theorem, confidence intervals, and hypothesis testing.&lt;/p&gt;
+&lt;p&gt;You can find the OER in its current form here: &lt;a href=&#34;https://collinn.github.io/sbi/&#34;&gt;An Intuitive, Interactive, Introduction to Biostatistics&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BayesSEIR</title>
+      <link>https://ceward18.github.io/project/bayesseir/</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/project/bayesseir/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;$\texttt{BayesSEIR}$ is an R package developed to fit fully Bayesian discrete-time stochastic SEIR models of epidemic spread. The package offers modelers three methods to describe the infectious period: exponentially distributed, gamma or
+Weibully distributed using the path-specific approach of Porter and Oleson (2013),
+and the infectious duration-dependent transmissibility proposed by the package 
+authors.&lt;/p&gt;
+&lt;h2 id=&#34;model-details&#34;&gt;Model Details&lt;/h2&gt;
+&lt;p&gt;The SEIR model includes four compartments, &lt;strong&gt;S&lt;/strong&gt;usceptible,
+&lt;strong&gt;E&lt;/strong&gt;xposed, &lt;strong&gt;I&lt;/strong&gt;nfectious, and &lt;strong&gt;R&lt;/strong&gt;emoved/&lt;strong&gt;R&lt;/strong&gt;ecovered. BayesSEIR uses the 
+chain binomial structure as presented in Lekone and Finkenstädt (2006).
+The model assumes a closed population of size $N$. Let $t = 1, &amp;hellip;, \tau$ 
+indicate discrete calendar time since the epidemic began and $S_t$, $E_t$, 
+$I_t$, and $R_t$ denote the number of individuals in the susceptible, exposed,
+infectious, and removed compartment in the time interval $(t, t+1]$, 
+respectively. Furthermore, define $E^\ast_t$, $I^\ast_{t}$, and $R^\ast_{t}$ to
+represent the number of individuals that transition into the indicated
+compartment in this interval.&lt;/p&gt;
+&lt;p&gt;The counts of newly exposed, infectious, and removed individuals is modeled
+using a chain binomial structure:&lt;/p&gt;
+&lt;p&gt;$$E^\ast_t \sim Bin\Big(S_t, \pi_t^{(SE)}\Big)$$&lt;/p&gt;
+&lt;p&gt;$$I^\ast_{t} \sim Bin\Big(E_{t}, \pi^{(EI)} \Big)$$&lt;/p&gt;
+&lt;p&gt;$$R^\ast_{t} \sim Bin\Big(I_{t}, \pi^{(IR)} \Big)$$&lt;/p&gt;
+&lt;p&gt;The transition probabilities, $\pi_t^{(\text{SE})}$, $\pi^{(\text{EI})}$, and
+$\pi^{(\text{IR})}$ are of primary interest. $\texttt{BayesSEIR}$ assumes the transmission
+probability is written as&lt;/p&gt;
+&lt;p&gt;$$\pi_t^{(\text{SE})} = 1 - \exp \Big(-e^{\theta_t} \frac{I_t}{N}\Big)$$&lt;/p&gt;
+&lt;p&gt;where $\theta_t = X_t&#39; \boldsymbol{\beta}$, $X_t$ is a $1 \times p$ row-vector, and $\boldsymbol{\beta}$ is a $p \times 1$ vector used to describe the intensity process.&lt;/p&gt;
+&lt;p&gt;$\texttt{BayesSEIR}$ uses an exponential distribution to describe the time spent in the 
+latent period, which translates to a probability written as&lt;/p&gt;
+&lt;p&gt;$$\pi^{(\text{EI})} = 1 - \exp (- \rho_E)$$&lt;/p&gt;
+&lt;p&gt;where $\rho_E$ is the rate parameter, such that $1/\rho_E$ gives the mean duration
+of the latent period.&lt;/p&gt;
+&lt;p&gt;$\texttt{BayesSEIR}$ offers three possible methods for specifying the infectious period:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Exponentially distributed&lt;/strong&gt;:
+$$\pi^{(\text{IR})} = 1 - \exp (- \rho_I)$$
+where $\rho_I$ is the rate parameter, such that $1/\rho_I$ gives the mean duration
+of the infectious period.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Path-specific&lt;/strong&gt;:
+$$\pi^{(\text{IR})} = P(W \leq w + 1 | W &amp;gt; w)$$
+where $W$ can follow an exponential, gamma, or Weibull distribution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Infectious duration-dependent (IDD) transmission&lt;/strong&gt;:
+$$\pi_t^{(\text{SE})} = 1 - \exp \Big(-e^{\theta_t} \frac{ \sum_{w = 1}^{T_I} f(w) I_{wt} }{N} \Big)$$
+where the duration of the infectious period is fixed at $T_I$ days and $f(w) &amp;gt; 0$
+describes a curve of transmissibility over each individual&amp;rsquo;s infectious period. BayesSEIR
+offers four functions that can be used to specify $f(w)$, the gamma PDF, the log
+normal PDF, a logistic decay function, and a function derived from splines.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;p&gt;For some examples of the package in action, check out the package vignettes:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;epiSimR0.html&#34;&gt;Simulating Epidemics and Computing R0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;kikwit.html&#34;&gt;1995 Kikwit Ebola Outbreak&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;Lekone, P. E., &amp;amp; Finkenstädt, B. F. (2006). Statistical inference in a stochastic epidemic SEIR model with control intervention: Ebola as a case study. Biometrics, 62(4), 1170-1177.&lt;/p&gt;
+&lt;p&gt;Porter, A. T., &amp;amp; Oleson, J. J. (2013). A path‐specific SEIR model for use with
+general latent and infectious time distributions. Biometrics, 69(1), 101-108.&lt;/p&gt;
+&lt;p&gt;Ward, C., Brown, G. D., &amp;amp; Oleson, J. J. (2021) Incorporating Infectious Duration-DependentTransmission into Bayesian Epidemic Models [Manuscript 
+submitted for publication]. Department of Biostatistics. University of Iowa.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amit Agarwal | Caitlin Ward</title>
+    <link>https://ceward18.github.io/author/amit-agarwal/</link>
+      <atom:link href="https://ceward18.github.io/author/amit-agarwal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amit Agarwal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ceward18.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Amit Agarwal</title>
+      <link>https://ceward18.github.io/author/amit-agarwal/</link>
+    </image>
+    
+    <item>
+      <title>Survival prediction in glioblastoma on post-contrast magnetic resonance imaging using filtration based first-order texture analysis- Comparison of multiple machine learning models</title>
+      <link>https://ceward18.github.io/publication/survivalmachinelearning/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/survivalmachinelearning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

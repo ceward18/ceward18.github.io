@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics education | Caitlin Ward</title>
+    <link>https://ceward18.github.io/tag/statistics-education/</link>
+      <atom:link href="https://ceward18.github.io/tag/statistics-education/index.xml" rel="self" type="application/rss+xml" />
+    <description>Statistics education</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ceward18.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Statistics education</title>
+      <link>https://ceward18.github.io/tag/statistics-education/</link>
+    </image>
+    
+    <item>
+      <title>An Intuitive, Interactive, Introduction to Biostatistics</title>
+      <link>https://ceward18.github.io/project/textbook/</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/project/textbook/</guid>
+      <description>&lt;p&gt;I hold a strong passion for teaching biostatistics curriculum using personalized pedagogical methods. This led to applying and receiving funding for the creation of an Open Educational Resource (OER) to be used in an introductory biostatistics or statistics course. The OER is currently under construction, with development focused on a combination of textual explanations, embedded Shiny applications, and corresponding exercises to emphasize conceptual understanding.&lt;/p&gt;
+&lt;p&gt;The OER, entitled &amp;ldquo;An Intuitive, Interactive, Introduction to Biostatistics&amp;rdquo; aims to provide students with an engaging and interactive learning resource that offers an intuitive illustration of core statistical concepts, such as probability distributions,
+Central Limit Theorem, confidence intervals, and hypothesis testing.&lt;/p&gt;
+&lt;p&gt;You can find the OER in its current form here: &lt;a href=&#34;https://collinn.github.io/sbi/&#34;&gt;An Intuitive, Interactive, Introduction to Biostatistics&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
