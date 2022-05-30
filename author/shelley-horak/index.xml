@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shelley Horak | Caitlin Ward</title>
+    <link>https://ceward18.github.io/author/shelley-horak/</link>
+      <atom:link href="https://ceward18.github.io/author/shelley-horak/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shelley Horak</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ceward18.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Shelley Horak</title>
+      <link>https://ceward18.github.io/author/shelley-horak/</link>
+    </image>
+    
+    <item>
+      <title>Evaluating a state child care assistance program using administrative data</title>
+      <link>https://ceward18.github.io/publication/ccapaper/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/ccapaper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
