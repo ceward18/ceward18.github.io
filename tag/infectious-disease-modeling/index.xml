@@ -75,11 +75,13 @@ normal PDF, a logistic decay function, and a function derived from splines.&lt;/
 &lt;p&gt;&lt;a href=&#34;epiSimR0.html&#34;&gt;Simulating Epidemics and Computing R0&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;kikwit.html&#34;&gt;1995 Kikwit Ebola Outbreak&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;p&gt;Lekone, P. E., &amp;amp; Finkenstädt, B. F. (2006). Statistical inference in a stochastic epidemic SEIR model with control intervention: Ebola as a case study. Biometrics, 62(4), 1170-1177.&lt;/p&gt;
-&lt;p&gt;Porter, A. T., &amp;amp; Oleson, J. J. (2013). A path‐specific SEIR model for use with
-general latent and infectious time distributions. Biometrics, 69(1), 101-108.&lt;/p&gt;
-&lt;p&gt;Ward, C., Brown, G. D., &amp;amp; Oleson, J. J. (2021) Incorporating Infectious Duration-DependentTransmission into Bayesian Epidemic Models [Manuscript 
-submitted for publication]. Department of Biostatistics. University of Iowa.&lt;/p&gt;
+&lt;p&gt;Lekone, P. E., &amp;amp; Finkenstädt, B. F. (2006). Statistical inference in a stochastic epidemic SEIR model with control intervention: Ebola as a case study. Biometrics.
+DOI: &lt;a href=&#34;https://doi.org/10.1111/j.1541-0420.2006.00609.x&#34;&gt;10.1111/j.1541-0420.2006.00609.x&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Porter, A. T., &amp;amp; Oleson, J. J. (2013). A path-specific SEIR model for use with
+general latent and infectious time distributions. Biometrics. DOI:
+&lt;a href=&#34;https://doi.org/10.1111/j.1541-0420.2012.01809.x&#34;&gt;10.1111/j.1541-0420.2012.01809.x&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ward, C., Brown, G. D., &amp;amp; Oleson, J. J. (2022) Incorporating Infectious Duration-Dependent Transmission into Bayesian Epidemic Models. Biometrical Journal. DOI:
+&lt;a href=&#34;https://doi.org/10.1002/bimj.202100401&#34;&gt;10.1002/bimj.202100401&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
