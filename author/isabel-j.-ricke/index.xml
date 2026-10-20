@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Isabel J. Ricke | Caitlin Ward</title>
+    <link>https://ceward18.github.io/author/isabel-j.-ricke/</link>
+      <atom:link href="https://ceward18.github.io/author/isabel-j.-ricke/index.xml" rel="self" type="application/rss+xml" />
+    <description>Isabel J. Ricke</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ceward18.github.io/media/icon_hud8cf8c8d08fd24a01400ee6df587ab90_29900_512x512_fill_lanczos_center_3.png</url>
+      <title>Isabel J. Ricke</title>
+      <link>https://ceward18.github.io/author/isabel-j.-ricke/</link>
+    </image>
+    
+    <item>
+      <title>Caregiver COVID-19 vaccine status and its influence on pediatric vaccination decisions in a US cohort</title>
+      <link>https://ceward18.github.io/publication/ricke_vaccines/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/ricke_vaccines/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

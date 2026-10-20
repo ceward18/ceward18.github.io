@@ -5,12 +5,20 @@
     <link>https://ceward18.github.io/author/rob-deardon/</link>
       <atom:link href="https://ceward18.github.io/author/rob-deardon/index.xml" rel="self" type="application/rss+xml" />
     <description>Rob Deardon</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ceward18.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://ceward18.github.io/media/icon_hud8cf8c8d08fd24a01400ee6df587ab90_29900_512x512_fill_lanczos_center_3.png</url>
       <title>Rob Deardon</title>
       <link>https://ceward18.github.io/author/rob-deardon/</link>
     </image>
+    
+    <item>
+      <title>Multivariable Behavioral Change Modeling of Epidemics in the Presence of Undetected Infections</title>
+      <link>https://ceward18.github.io/publication/multiple-bc-model/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://ceward18.github.io/publication/multiple-bc-model/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bayesian modeling of dynamic behavioral change during an epidemic</title>
